@@ -1,5 +1,7 @@
 # deye-solarflow-bridge
 
+This was created as "add-on" for solarflow-control: https://github.com/reinhard-brandstaedter/solarflow
+
 Enables you to set inverter limit on your broker from this
 
 ```bash
