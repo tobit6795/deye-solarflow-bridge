@@ -14,7 +14,7 @@ MQTT_BROKER_PORT = int(os.environ.get("MQTT_BROKER_PORT"))
 MQTT_USERNAME = os.environ.get("MQTT_USERNAME")
 MQTT_PASSWORD = os.environ.get("MQTT_PASSWORD")
 CUSTOM_INPUT_TOPIC = os.environ.get("CUSTOM_INPUT_TOPIC", "deye-bridge/output_power")
-DEYE_OUTPUT_TOPIC = os.environ.get("DEYE_OUTPUT_TOPIC", "deye/settings/active_power_regulation/control")
+DEYE_OUTPUT_TOPIC = os.environ.get("DEYE_OUTPUT_TOPIC", "deye/settings/active_power_regulation/command")
 
 def on_connect(client, userdata, flags, rc):
     if rc == 0:
