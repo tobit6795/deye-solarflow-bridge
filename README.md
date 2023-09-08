@@ -20,7 +20,7 @@ https://github.com/kbialek/deye-inverter-mqtt
 
 
 ### Configuration
-
+*.env*
 ```bash
 MQTT_BROKER_IP=
 MQTT_BROKER_PORT=1883
