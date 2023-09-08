@@ -3,7 +3,6 @@ import os
 import sys
 import logging
 
-# Skriptnamen ermitteln
 script_name = os.path.basename(__file__)
 
 FORMAT = '%(asctime)s:%(levelname)s(%(name)s) %(message)s'
